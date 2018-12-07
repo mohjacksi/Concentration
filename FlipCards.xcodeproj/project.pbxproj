@@ -12,6 +12,8 @@
 		4B17F6C621AEFD6E00A41F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B17F6C421AEFD6E00A41F51 /* Main.storyboard */; };
 		4B17F6C821AEFD7200A41F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B17F6C721AEFD7200A41F51 /* Assets.xcassets */; };
 		4B17F6CB21AEFD7200A41F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B17F6C921AEFD7200A41F51 /* LaunchScreen.storyboard */; };
+		4B30F33021B839E10000451A /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30F32F21B839E10000451A /* Concentration.swift */; };
+		4B30F33221B83DF20000451A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30F33121B83DF20000451A /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4B17F6C721AEFD7200A41F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B17F6CA21AEFD7200A41F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B17F6CC21AEFD7200A41F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B30F32F21B839E10000451A /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		4B30F33121B83DF20000451A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				4B17F6C021AEFD6E00A41F51 /* AppDelegate.swift */,
 				4B17F6C221AEFD6E00A41F51 /* ViewController.swift */,
+				4B30F32F21B839E10000451A /* Concentration.swift */,
+				4B30F33121B83DF20000451A /* Card.swift */,
 				4B17F6C421AEFD6E00A41F51 /* Main.storyboard */,
 				4B17F6C721AEFD7200A41F51 /* Assets.xcassets */,
 				4B17F6C921AEFD7200A41F51 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				4B17F6C321AEFD6E00A41F51 /* ViewController.swift in Sources */,
 				4B17F6C121AEFD6E00A41F51 /* AppDelegate.swift in Sources */,
+				4B30F33021B839E10000451A /* Concentration.swift in Sources */,
+				4B30F33221B83DF20000451A /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQZ9VS37LV;
 				INFOPLIST_FILE = FlipCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQZ9VS37LV;
 				INFOPLIST_FILE = FlipCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
